@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:text="序号" />
+    
+    <View 
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+    <TextView
+        android:id="@+id/text_goods_name"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:gravity="center"
+        android:text="商品名称" />
+    
+     <View 
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+     <TextView
+        android:id="@+id/text_codeBar"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingBottom="10dip"
+        android:textColor="#000000"
+        android:paddingTop="10dip"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="条形码" />
+     
+     <View 
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+     <TextView
+        android:id="@+id/text_num"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="数量" />
+     
+     <View 
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+     <TextView
+        android:id="@+id/text_curPrice"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:paddingBottom="10dip"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:paddingTop="10dip"
+        android:gravity="center"
+        android:text="现价" />
+     
+     <View 
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+     <TextView
+        android:id="@+id/text_money"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:paddingBottom="10dip"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:paddingTop="10dip"
+        android:gravity="center"
+        android:text="金额" />
+
+</LinearLayout>
